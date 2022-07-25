@@ -1,0 +1,16 @@
+{
+    "name": "get-css-selector",
+    "description": "get css selector from clicked element",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
